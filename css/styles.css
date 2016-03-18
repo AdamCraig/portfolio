@@ -1,6 +1,3 @@
-body {
-
-}
 
 li {
   border-radius: 5px;
@@ -13,6 +10,7 @@ a {
 }
 
 h4 {
+
   text-align: center;
 }
 
@@ -68,6 +66,7 @@ h4 {
 }
 
 .jumbotron-narrow {
+  float: top;
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
@@ -75,7 +74,7 @@ h4 {
   width: 70%;
   border-radius: 20px;
   background-color: #FF722B;
-  border-style: dotted;
+  border: 4px dotted black;
   color: white;
   text-align: center;
 }
