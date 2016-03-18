@@ -67,6 +67,25 @@ h4 {
   text-align: center;
 }
 
+.jumbotron-narrow {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  width: 70%;
+  border-radius: 20px;
+  background-color: #FF722B;
+  border-style: dotted;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron-narrow h1 {
+  padding-top: 10px;
+  margin-bottom: -20px;
+  margin-top: -5px;
+}
+
 .caption {
   text-align: center;
 }
