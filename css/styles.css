@@ -1,3 +1,7 @@
+body {
+
+}
+
 li {
   border-radius: 5px;
   background-color: #FF722B;
@@ -8,10 +12,46 @@ a {
   font-weight: bold;
 }
 
+.carousel {
+  margin-top: 10px;
+}
+
+.carousel img {
+  border-radius: 30px;
+  min-height: 500px;
+  max-height: 500px;
+  min-width: 700px;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control {
+  border-radius: 50px;
+  color: #FF722B;
+}
+
+.carousel-indicators li {
+  width: 25px;
+  height: 25px;
+  background-color: #FF722B;
+}
+
+.carousel-indicators .active {
+  width: 25px;
+  height: 25px;
+}
+
 .jumbotron {
   background-color: #FF722B;
   color: white;
   text-align: center;
+}
+
+.thumbnail {
+  margin-top: -10px;
+  border: groove #FF722B;
 }
 
 .invert {

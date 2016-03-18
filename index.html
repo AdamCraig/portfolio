@@ -26,12 +26,42 @@
 
     <!-- END NAV BAR -->
 
-    <!-- START TOP BANNER IMAGE -->
-    <div class="banner">
-      <img src="img/redpanda.jpg" alt="The majestic red panda, Adam's spirit animal.">
+    <!-- START CAROUSEL WITH LIST OF PROJECTS + THUMBNAILS -->
+
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/redpanda.jpg" alt="The majestic red panda, Adam's spirit animal.">
+        </div>
+
+        <div class="item">
+          <a href="http://github.com/adamcraig/vacation/blob/master/vacation.html">
+            <img src="img/vacationcode.jpg" alt="The code for the vacation.html page">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="http://github.com/adamcraig/vacation/blob/master/vacation.html">
+            <img src="img/vacationpage.jpg" alt="The product of vacation.html">
+          </a>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span></a>
     </div>
 
-    <!-- END TOP BANNER IMAGE -->
+    <!-- END CAROUSEL WITH LIST OF PROJECTS + THUMBNAILS -->
 
     <!-- START NAME JUMBOTRON -->
 
@@ -41,13 +71,63 @@
       <h3>Programming Portfolio</h3>
     </div>
 
-    <!-- START CAROUSEL WITH LIST OF PROJECTS + THUMBNAILS -->
-
-    <!-- END CAROUSEL WITH LIST OF PROJECTS + THUMBNAILS -->
-
     <!-- START ABOUT ME -->
 
     <!-- END ABOUT ME -->
+
+    <!-- START "MORE PROJECTS" SECTION WITH PROJECTS + THUMBNAILS -->
+      <!-- START FIRST ROW OF MORE PROJECTS -->
+    <div class="row">
+      <div class="jumbotron invert">
+        <h2>More projects...</h2>
+      </div>
+
+      <div class="col-md-6 thumbnail">
+        <div class="thumbnail">
+          <img src="img/redpanda2.jpg" alt="Project">
+          <div class="caption">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 thumbnail">
+        <div class="thumbnail">
+          <img src="img/redpanda2.jpg" alt="Project">
+          <div class="caption">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+      <!-- END FIRST ROW OF MORE PROJECTS -->
+      <!-- START SECOND ROW OF MORE PROJECTS -->
+    <div class="row">
+
+      <div class="col-md-6 thumbnail">
+          <div class="thumbnail">
+            <img src="img/redpanda2.jpg" alt="Project">
+            <div class="caption">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 thumbnail">
+            <div class="thumbnail">
+              <img src="img/redpanda2.jpg" alt="Project">
+              <div class="caption">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+
+    </div>
+      <!-- END SECOND ROW OF MORE PROJECTS -->
+    <!-- END "MORE PROJECTS" SECTION -->
 
 
 
