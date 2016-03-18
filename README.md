@@ -26,7 +26,7 @@ _HTML, CSS, JavaScript, Bootstrap_
 
 ##GitHub Pages Link
 
-http://www.adamcraig.github.io/portfolio
+_adamcraig.github.io/portfolio_
 
 ### License
 
